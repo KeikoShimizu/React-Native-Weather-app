@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native"
 const Content = (props) => {
   return (
     <View style={styles.content}>
-      <View >
+      <View >s
         {props.temp ? <Text style={styles.info}>{Math.round(props.temp)}&#8451;</Text> : null }
       </View>
       <View>
